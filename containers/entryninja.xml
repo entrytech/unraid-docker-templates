@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2.0.5">
   <Name>EntryNinja</Name>
-  <Repository>craigzyc/entryninja</Repository>
-  <Registry>https://hub.docker.com/repository/docker/craigzyc/entryninja/</Registry>
+  <Repository>entrytech/entryninja</Repository>
+  <Registry>https://hub.docker.com/r/entrytech/entryninja</Registry>
   <Network>host</Network>
   <MyIP/>
   <Shell>sh</Shell>
