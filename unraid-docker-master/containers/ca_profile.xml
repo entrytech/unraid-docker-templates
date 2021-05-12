@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+  <Icon>https://entry.ninja/images/icon.png</Icon>
+  <Profile>
+    entry.ninja was built to make it easy to access the docker and other services on your machine easily and securely. Please consider donating to help support the infrastructure costs.
+  </Profile>
+  <DonateLink>https://www.paypal.com/donate?business=SAW5E7A9CHUZE&amp;currency_code=USD</DonateLink>
+  <DonateText>Please consider donating to keep this development going and cover the associated costs, or just buy me a beer. Thank you</DonateText>
+</Maintainer>

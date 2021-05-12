@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Container version="2.0.5">
+  <Name>EntryNinja</Name>
+  <Repository>craigzyc/entryninja</Repository>
+  <Registry>https://hub.docker.com/repository/docker/craigzyc/entryninja/</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview>https://entry.ninja/&#xD;
+&#xD;
+Once you have started the container open the webui to reveal your install code. Go to https://entry.ninja Sign up, and claim your server. Once you have claimed your server you can add services that will be securely proxied to your authenticated browser. &#xD;
+&#xD;
+You need to make sure the container can see the port that you are trying to access the service on. You can either use a host network so it can see the entire array of ports, or open ports specifically as needed(recommended). If you choose to activate it(in the webui), and select host network, you will also be able to access services on other devices behind your network.&#xD;
+ </Overview>
+  <Category>Security:</Category>
+  <WebUI>http://[IP]:38200/</WebUI>
+  <TemplateURL/>
+  <Icon>https://entry.ninja/images/icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled></DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>https://entry.ninja&#xD;
+&#xD;
+Once you have started the container open the webui to reveal your install code. Go to https://entry.ninja Sign up, and claim your server. Once you have claimed your server you can add services that will be securely proxied to your authenticated browser. &#xD;
+&#xD;
+You need to make sure the container can see the port that you are trying to access the service on. You can either use a host network so it can see the entire array of ports, or open ports specifically as needed(recommended). If you choose to activate it(in the webui), and select host network, you will also be able to access services on other devices behind your network.&#xD;
+ </Description>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish/>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/entryninja</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment/>
+  <Labels/>
+  <Config Name="config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/cacheappdata/entryninja</Config>
+</Container>
